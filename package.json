@@ -1,6 +1,6 @@
 {
-  "name": "face-api-tfjs-core-3_21_0",
-  "version": "1.0.0",
+  "name": "face-api-tfjs-core-update",
+  "version": "1.0.1",
   "description": "JavaScript API for face detection and face recognition in the browser with tensorflow.js",
   "module": "./build/es6/index.js",
   "main": "./build/commonjs/index.js",
