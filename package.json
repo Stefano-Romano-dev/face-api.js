@@ -1,6 +1,6 @@
 {
   "name": "face-api-tfjs-core-update",
-  "version": "1.0.1",
+  "version": "1.0.8",
   "description": "JavaScript API for face detection and face recognition in the browser with tensorflow.js",
   "module": "./build/es6/index.js",
   "main": "./build/commonjs/index.js",
@@ -33,14 +33,13 @@
   "author": "justadudewhohacks",
   "license": "MIT",
   "dependencies": {
-    "@tensorflow/tfjs-core": "^3.21.0",
+    "@tensorflow/tfjs-core": "4.2.0",
     "tslib": "^1.11.1"
   },
   "devDependencies": {
-    "@tensorflow/tfjs-node": "^3.21.0",
+    "@tensorflow/tfjs-node": "4.2.0",
     "@types/jasmine": "^3.5.9",
     "@types/node": "^13.9.2",
-    "canvas": "2.6.1",
     "jasmine": "^3.5.0",
     "jasmine-core": "^3.5.0",
     "karma": "^4.4.1",
@@ -54,13 +53,5 @@
     "rollup-plugin-uglify": "^6.0.4",
     "ts-node": "^8.7.0",
     "typescript": "^3.8.3"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Stefano-Romano-dev/face-api.js.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Stefano-Romano-dev/face-api.js/issues"
-  },
-  "homepage": "https://github.com/Stefano-Romano-dev/face-api.js#readme"
+  }
 }
